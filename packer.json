@@ -28,8 +28,13 @@
     {
       "type": "shell",
       "scripts": [
-        "install-docker.sh"
+        "scripts/install-docker.sh"
       ]
+    },
+    {
+      "type": "file",
+      "source": "config/",
+      "destination": "/tmp"
     }
   ]
 }
