@@ -35,6 +35,12 @@
       "type": "file",
       "source": "config/",
       "destination": "/tmp"
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "echo 'ubuntu:ubuntu' | sudo chpasswd"
+      ]
     }
   ]
 }
